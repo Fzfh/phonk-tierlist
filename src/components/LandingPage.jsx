@@ -60,7 +60,7 @@ export default function LandingPage({ onEnter }) {
 
       {/* Foto logo */}
       <motion.img
-        src="/gw.png"
+        src="/phonk-tierlist/gw.png"
         alt="Aura Logo"
         className="w-28 h-28 md:w-40 md:h-40 mb-6 rounded-full relative"
         initial={{ scale: 0 }}

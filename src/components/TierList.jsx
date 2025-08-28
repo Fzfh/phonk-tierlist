@@ -7,8 +7,8 @@ const songsData = [
     title: "AURA",
     artist: "Ogryzek",
     desc: "Gelap, bass berat, cocok buat cruising malam.",
-    logo: "/aura.jpeg",
-    file: "/music/intro.mp3",
+    logo: "/phonk-tierlist/aura.jpeg",
+    file: "/phonk-tierlist/music/intro.mp3",
     tier: 1,
   },
   {
@@ -16,8 +16,8 @@ const songsData = [
     title: "X-PRIME",
     artist: "Dj samir",
     desc: "+1000000 AURA.",
-    logo: "/prime.jpg",
-    file: "/music/X-PRIME.mp3",
+    logo: "/phonk-tierlist/prime.jpg",
+    file: "/phonk-tierlist/music/X-PRIME.mp3",
     tier: 2,
   },
   {
@@ -25,8 +25,8 @@ const songsData = [
     title: "Sleepwalker (slowed)",
     artist: "akiaura",
     desc: "Vibes neon menyala, ambience jalanan kota.",
-    logo: "/ki.jpg",
-    file: "/music/Sleepwalker.mp3",
+    logo: "/phonk-tierlist/ki.jpg",
+    file: "/phonk-tierlist/music/Sleepwalker.mp3",
     tier: 3,
   },
   {
@@ -34,8 +34,8 @@ const songsData = [
     title: "SLAY!",
     artist: "Eternxlkz",
     desc: "Vibes neon menyala, ambience jalanan kota.",
-    logo: "/slay.jpeg",
-    file: "/music/slay.mp3",
+    logo: "/phonk-tierlist/slay.jpeg",
+    file: "/phonk-tierlist/music/slay.mp3",
     tier: 4,
   },
   {
@@ -44,7 +44,7 @@ const songsData = [
     artist: "Clovis Reyes",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/GMh-mTTOnkg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAmBvE4xHJoXxolukWx7HsWdW2ocg",
-    file: "/music/EEYUH.mp3",
+    file: "/phonk-tierlist/music/EEYUH.mp3",
     tier: 5,
   },
   {
@@ -53,7 +53,7 @@ const songsData = [
     artist: "MVSTERIOUS HXMR",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/lOepGTHklqw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBiSEI5WImBKpRvD76m6u3gfpfVdQ",
-    file: "/music/slava.mp3",
+    file: "/phonk-tierlist/music/slava.mp3",
     tier: 6,
   },
   {
@@ -62,7 +62,7 @@ const songsData = [
     artist: "mgd",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/FVAS9ETK1BM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCR0d2NWG47Gr8ZX-f2Mo24eWaHJQ",
-    file: "/music/phut.mp3",
+    file: "/phonk-tierlist/music/phut.mp3",
     tier: 7,
   },
   {
@@ -71,7 +71,7 @@ const songsData = [
     artist: "slxughter",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/rngLO3tF2mA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJXl8xD8QDltM2DRW4JtGvjmXWQg",
-    file: "/music/fragment.mp3",
+    file: "/phonk-tierlist/music/fragment.mp3",
     tier: 8,
   },
   {
@@ -80,7 +80,7 @@ const songsData = [
     artist: "slxughter",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/qwzZ5ViZans/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGDcgUyh_MA8=&rs=AOn4CLBtLmCRl8m-rH08qIWx_BgwKvzVMA",
-    file: "/music/avangard.mp3",
+    file: "/phonk-tierlist/music/avangard.mp3",
     tier: 9,
   },
   {
@@ -89,7 +89,7 @@ const songsData = [
     artist: "Ashreveal",
     desc: "Vibes neon menyala, ambience jalanan kota.",
     logo: "https://i.ytimg.com/vi/G58pphuWFwo/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGB8gWih_MA8=&rs=AOn4CLCdBjtp1_PcsXmaUn4IcVEgyYfOvw",
-    file: "/music/Manasha.mp3",
+    file: "/phonk-tierlist/music/Manasha.mp3",
     tier: 10,
   },
 ];
