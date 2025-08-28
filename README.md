@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aura — Phonk & Funk Tier List (React + Vite + Tailwind)
 
 Project siap jalan. Sudah ada:
@@ -35,3 +36,6 @@ npm run preview    # test hasil build secara lokal
 
 ## Catatan Autoplay
 Browser modern sering memblokir autoplay. Aku sudah trigger play saat tombol **Lanjut** diklik, jadi backsound dan/atau lagu akan mulai setelah interaksi pertama.
+=======
+# phonk-tierlist
+>>>>>>> 1bc086bf1cb4f059774224c2c87e70a558ee20f9
