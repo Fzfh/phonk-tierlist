@@ -36,7 +36,7 @@ export default function LandingPage({ onEnter }) {
     }),
   };
 
-  const text = "Selamat Datang, Terimakasih Telah Datang!";
+  const text = "Halooo, Selamat Datang!";
 
   return (
     <div className="flex flex-col items-center justify-center h-screen text-center relative overflow-hidden">
