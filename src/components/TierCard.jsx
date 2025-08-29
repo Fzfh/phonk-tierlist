@@ -112,7 +112,7 @@ export default function TierCard({ song, isActive, onToggle }) {
       <div className="mt-3 text-xs flex items-center gap-2 opacity-90 relative z-10">
         {isActive ? (
           <>
-            <span className="text-green-400 font-semibold">▶ Memutar...</span>
+            <span className="text-green-400 font-semibold"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg> Memutar...</span>
             <div className="flex gap-[2px] items-end h-3">
               {[0, 1, 2, 3].map((i) => (
                 <motion.span
@@ -130,7 +130,7 @@ export default function TierCard({ song, isActive, onToggle }) {
             </div>
           </>
         ) : (
-          <span className="opacity-70">⏸ Klik untuk putar</span>
+          <span className="opacity-70"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M10 24h-6v-24h6v24zm10 0h-6v-24h6v24zm-11-23h-4v22h4v-22zm10 0h-4v22h4v-22z"/></svg> Klik untuk putar</span>
         )}
       </div>
 
