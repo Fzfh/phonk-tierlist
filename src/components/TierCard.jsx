@@ -95,20 +95,40 @@ export default function TierCard({ song, isActive, onToggle }) {
       )}
 
       {/* konten */}
-      <div className="flex items-start gap-4 relative z-10">
+      <div className="flex items-start gap-3 md:gap-4 relative z-10">
         <img
           src={song.logo}
           alt="logo lagu"
-          className={`${logoSize} rounded-lg object-cover`}
+          className={`rounded-lg object-cover 
+            ${song.tier === 1 
+              ? "w-20 h-20 sm:w-24 sm:h-24" 
+              : song.tier === 2 
+              ? "w-16 h-16 sm:w-20 sm:h-20" 
+              : "w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16"}`}
         />
-        <div className="flex-1">
-          <h2 className={`glow-text text-purple-300 leading-tight ${titleClass}`}>
+
+        <div className="flex-1 min-w-0">
+          <h2
+            className={`glow-text text-purple-300 leading-tight break-words
+            ${song.tier === 1 
+              ? "text-xl sm:text-2xl md:text-4xl font-extrabold" 
+              : song.tier === 2 
+              ? "text-lg sm:text-xl md:text-3xl font-bold" 
+              : "text-base sm:text-lg md:text-2xl font-bold"}`}
+          >
             {song.title}
           </h2>
-          <p className="text-sm md:text-base text-purple-200/80">{song.artist}</p>
-          <p className="text-xs md:text-sm mt-2 text-purple-100/70">{song.desc}</p>
+
+          <p className="text-[0.7rem] sm:text-sm md:text-base text-purple-200/80 truncate">
+            {song.artist}
+          </p>
+
+          <p className="mt-1 text-[0.65rem] sm:text-xs md:text-sm text-purple-100/70 line-clamp-2 sm:line-clamp-3">
+            {song.desc}
+          </p>
         </div>
-        <div className="text-xs px-3 py-1 rounded-full bg-purple-800/60 border border-purple-600/40">
+
+        <div className="text-[0.6rem] sm:text-xs px-2 sm:px-3 py-1 rounded-full bg-purple-800/60 border border-purple-600/40 shrink-0">
           Top {song.tier}
         </div>
       </div>
