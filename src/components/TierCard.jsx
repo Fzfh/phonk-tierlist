@@ -25,17 +25,22 @@ export default function TierCard({ song, isActive, onToggle }) {
 
   // animasi scale & shadow
   const targetScale = isActive || hovered ? 1.03 : 1;
-  let targetBoxShadow;
-  if (song.tier === 1 || song.tier === 2) {
-    // Top 1 & 2 aura emas
+    let targetBoxShadow;
+  if (song.tier === 1) {
     targetBoxShadow = isActive
-      ? "0 0 40px rgba(255,215,0,0.8)" // gold glow
+      ? "0 0 50px rgba(255,223,0,0.9), 0 0 100px rgba(255,215,0,0.6)" // emas terang banget
+      : "0 0 25px rgba(255,215,0,0.5)";
+  } else if (song.tier === 2) {
+    targetBoxShadow = isActive
+      ? "0 0 35px rgba(255,215,0,0.7)" // emas tapi lebih soft
       : "0 0 15px rgba(255,215,0,0.4)";
   } else {
     targetBoxShadow = isActive
-      ? "0 0 30px rgba(168,85,247,0.8)" // neon purple glow
-      : "0 0 10px rgba(168,85,247,0.3)";
+  ? "0 0 15px rgba(168,85,247,0.8), 0 0 30px rgba(168,85,247,0.6), 0 0 45px rgba(168,85,247,0.4)"
+  : "0 0 8px rgba(168,85,247,0.5), 0 0 15px rgba(168,85,247,0.3)";
+
   }
+
 
   // style judul + logo
   const titleClass =
@@ -55,7 +60,7 @@ export default function TierCard({ song, isActive, onToggle }) {
       onHoverEnd={() => setHovered(false)}
       animate={{ scale: targetScale, boxShadow: targetBoxShadow }}
       transition={{ type: "spring", stiffness: 200, damping: 18 }}
-      className={`relative overflow-hidden p-5 rounded-2xl neon-card cursor-pointer flex flex-col justify-between ${sizeClass}`}
+      className={`relative overflow-hidden p-5 rounded-2xl cursor-pointer flex flex-col justify-between ${sizeClass}`}
       style={{ transformOrigin: "center center" }}
     >
       {/* 🎖 background khusus Top 1 & 2 */}
