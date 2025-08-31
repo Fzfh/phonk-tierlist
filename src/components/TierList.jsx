@@ -124,7 +124,7 @@ const songsData = [
     title: "MONTAGEM XONADA",
     artist: "MAFIA",
     desc: "Vibes gembira, sering digunakan untuk trend dance.",
-    logo: "https://i.ytimg.com/an_webp/JjPtDl6EJ3o/mqdefault_6s.webp?du=3000&sqp=CJDOysUG&rs=AOn4CLC2leTRvbRRtxBqxVit5WA6of9ZMQ",
+    logo: "https://i.ytimg.com/vi/JjPtDl6EJ3o/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGG0gFyh_MA8=&rs=AOn4CLC1H0YLr3obsp5DGmmeTbWQ1rytqg",
     file: "/phonk-tierlist/music/MONTAGEM XONADA.mp3",
     tier: 14,
   },
